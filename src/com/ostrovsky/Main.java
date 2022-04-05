@@ -20,6 +20,8 @@ public class Main {
             }
         }
         Collections.sort(even);
-        System.out.println(even);
+        for (int i: even) {
+            System.out.println(i);
+        }
     }
 }
